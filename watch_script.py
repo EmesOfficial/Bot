@@ -36,7 +36,7 @@ except KeyError:
     # print(f"Failed to obtain TGTG credentials.\nRun \"python3 {sys.argv[0]} <your_email>\" to generate TGTG credentials.")
     # exit(1)
     try:
-        email = input("Type your TooGoodToGo email address: ")
+        email = "kili00507@gmail.com"
         client = TgtgClient(email=email)
         tgtg_creds = client.get_credentials()
         print(tgtg_creds)
